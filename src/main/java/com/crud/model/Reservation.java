@@ -19,7 +19,7 @@ public class Reservation {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String rooName;
+    private String roomName;
     private LocalDateTime startTime;
     private LocalDateTime endTime;
     private String reservedBy;
